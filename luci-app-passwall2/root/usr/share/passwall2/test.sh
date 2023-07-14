@@ -234,7 +234,7 @@ start() {
 			test_auto_switch TCP "$NODE"
 		}
 		rm -f $LOCK_FILE
-		sleep ${delay}m
+		sleep ${delay}
 	done
 }
 

@@ -17,7 +17,7 @@ o = s:option(Flag, "enable", translate("Enable"))
 o.default = 0
 o.rmempty = false
 
-o = s:option(Value, "testing_time", translate("How often to test"), translate("Units:minutes"))
+o = s:option(Value, "testing_time", translate("How often to test"), translate("Units:seconds"))
 o.datatype = "uinteger"
 o.default = 1
 
